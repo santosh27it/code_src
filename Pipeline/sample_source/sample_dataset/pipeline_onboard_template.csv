@@ -1,0 +1,13 @@
+﻿Name,Sample,Comment
+data_source,rig,sourcing system or vendor name
+data_source_description,Research & Innovation Group,description of datasource
+dataset_name,id_mapping,"dataset name, dataset should be unique under same data source. On dataset can have multiple files"
+dataset_description,internal id mapping,description of the dataset
+dataset_owner,rig,owner of the dataset 
+source_file_type,csv,source file type
+source_file_name_pattern,id_mapping_yyyymmdd.csv,source file name pattern
+source_file_header_skip_rows,0,"when transformat, how many header lines need to be skpped"
+source_file_footer_skip_rows,0,"when transformat, how many footer lines need to be skipped"
+source_file_delimiter,|,file delimeter
+source_file_has_column,TRUE,if source file has column name 
+source_file_columns,,"if source file doesn't have column name, "
